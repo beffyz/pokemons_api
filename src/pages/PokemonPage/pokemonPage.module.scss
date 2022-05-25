@@ -1,0 +1,57 @@
+.heading {
+  padding: 50px;
+  background-color: dodgerblue;
+}
+
+.heading_search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.heading_input {
+  max-width: 250px;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+
+.heading_btn {
+  border: none;
+  color: white;
+  background-color: royalblue;
+  max-width: 150px;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    background-color: lightblue;
+  }
+}
+
+.cards {
+  display: inline-flex;
+  margin: 30px 30px 0 0;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card_border {
+  margin: 20px;
+}
+
+.card_cover {
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.card_name {
+  max-width: 500px;
+  width: 100%;
+}
